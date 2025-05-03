@@ -6,9 +6,13 @@ body {
 
 @theme{
     --font-logo: "Sulphur Point", sans-serif;
-    --font--body : "Poppins", sans-serif;
+    --font-body : "Poppins", sans-serif;
 }
 
 *{
     color: #FFFF;
+}
+.plane-bg{
+    background: linear-gradient(181deg, rgba(0, 0, 0, 0.58) -1.81%, rgba(0, 0, 0, 0.00) 54.33%);
+    filter: blur(2px);
 }

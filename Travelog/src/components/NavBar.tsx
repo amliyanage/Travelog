@@ -5,16 +5,14 @@ import logo from '../assets/logo.png'
 const NavBar = () => {
     return (
         <header>
-            <nav className='flex justify-around mt-10 items-center'>
+            <nav className='flex justify-between mt-10 items-center fixed z-50 w-full px-30'>
                 <div className='flex gap-4 font-logo items-center'>
                     <img src={logo} alt="logo" className='w-[40px] h-[40px]' />
                     <h1 className='font-logo font-bold text-[40px]'>Travelog</h1>
                 </div>
-                <ul className='flex gap-8 text-[18px] font-normal'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Pricing</li>
-                    <li>Contact</li>
+                <ul className='flex gap-8 text-[18px] font-normal relative left-12'>
+                    <li>Equipment</li>
+                    <li>About us</li>
                     <li>Blog</li>
                 </ul>
                 <div className='flex gap-8'>
