@@ -1,54 +1,98 @@
-# React + TypeScript + Vite
+# 🧭 Travelog - Explore the World
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Travelog**, a modern travel blog website where adventure meets design. This site allows users to explore travel destinations, get inspired, and read travel guides—all wrapped in a sleek, interactive user interface.
 
-Currently, two official plugins are available:
+![Travelog Banner](./assets/banner.png) <!-- Optional: Replace with actual image path or URL -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🏠 **Home Section** with parallax scroll effects and layered hero images.
+- 📖 **About Section** with blog-style cards and AOS (Animate on Scroll) animations.
+- 🔍 **Search Bar** for quick content discovery.
+- 🧭 **Responsive Navigation Bar** with a blurred glassmorphism design.
+- 📱 **Mobile-Friendly** design using Tailwind CSS and React.
+- ⚡ **AOS Integration** for smooth scrolling animations.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🚀 Tech Stack
+
+- **React** – Frontend library
+- **Vite** – Fast build tool for modern web projects
+- **Tailwind CSS** – Utility-first CSS framework
+- **AOS (Animate on Scroll)** – Animation library
+- **TypeScript (optional)** – If added, you can mention this
+
+---
+
+## 📂 Project Structure
+
+```
+travelog/
+├── public/
+├── src/
+│   ├── assets/               # Image and icon assets
+│   ├── components/           # React components (Home, NavBar, About, Footer)
+│   ├── App.tsx               # Main App file
+│   ├── main.tsx              # Entry point
+│   └── App.css               # Global styles
+├── package.json
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🔧 Getting Started
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/travelog.git
+cd travelog
 ```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+4. Open your browser at `http://localhost:5173`
+
+---
+
+## 📸 Screenshots
+
+> _Add screenshots or demo GIFs here for a visual overview._
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome! Please fork the repo and submit a pull request for any enhancements or bug fixes.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+- **Your Name** – [@yourusername](https://github.com/yourusername)
+
+---
+
+## 📬 Contact
+
+If you have any questions or suggestions, feel free to reach out via [email@example.com](mailto:email@example.com)
