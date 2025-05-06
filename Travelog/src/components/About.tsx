@@ -1,26 +1,33 @@
 import blog_img_1 from '../assets/blog-1.png'
 import blog_img_2 from '../assets/blog-2.png'
+import blog_img_3 from '../assets/blog-3.png'
 
 const About = () => {
     return (
         <section className="px-30">
             <div className='absolute right-30 bottom-[-10vh] flex gap-[25px]'>
-                <div className='w-[395px] h-[315px] bg-[#5EBBFF]/42 backdrop-blur-[2px] p-[45px] border-2 border-[#5EBBFF] rounded-[20px] flex flex-col justify-center items-start'>
+                <div
+                    data-aos="fade-up" data-aos-delay="200"
+                    className='w-[395px] h-[315px] bg-[#5EBBFF]/42 backdrop-blur-[2px] p-[45px] border-2 border-[#5EBBFF] rounded-[20px] flex flex-col justify-center items-start'>
                     <h3 className='font-body font-bold text-[34px] border-b-3 border-[#E3E3E3] pb-3 w-full'>Top Destinations</h3>
                     <p className='font-body text-[20px] mt-[14px]'>Explore over 600 destinations for your adventure.</p>
                 </div>
-                <div className='w-[395px] h-[315px] bg-[#BBDFF9]/42 backdrop-blur-[2px] p-[45px] border-2 border-[#BBDFF9] rounded-[20px] flex flex-col justify-center items-start'>
+                <div
+                    data-aos="fade-up" data-aos-delay="300"
+                    className='w-[395px] h-[315px] bg-[#BBDFF9]/42 backdrop-blur-[2px] p-[45px] border-2 border-[#BBDFF9] rounded-[20px] flex flex-col justify-center items-start'>
                     <h3 className='font-body font-bold text-[34px] border-b-3 border-[#E3E3E3] pb-3 w-full'>Global Escapes</h3>
                     <p className='font-body text-[20px] mt-[14px]'>Discover unforgettable places and start your journey.</p>
                 </div>
-                <div className='w-[395px] h-[315px] bg-[#BBDFF9]/42 backdrop-blur-[2px] p-[45px] border-2 border-[#BBDFF9] rounded-[20px] flex flex-col justify-center items-start'>
+                <div
+                    data-aos="fade-up" data-aos-delay="400" 
+                    className='w-[395px] h-[315px] bg-[#BBDFF9]/42 backdrop-blur-[2px] p-[45px] border-2 border-[#BBDFF9] rounded-[20px] flex flex-col justify-center items-start'>
                     <h3 className='font-body font-bold text-[34px] border-b-3 border-[#E3E3E3] pb-3 w-full'>Travel Guide</h3>
                     <p className='font-body text-[20px] mt-[14px]'>Find your next destination and travel today.</p>
                 </div>
             </div>
             <div className='flex w-full items-center flex-col '>
                 <div className="mt-50 flex gap-50 h-auto items-center">
-                    <div className="font-body relative w-full -top-30">
+                    <div className="font-body relative w-full -top-30" data-aos="fade-up-right">
                         <div className='flex w-full'>
                             <span className="text-[220px] font-bold text-white/35 opacity-10 leading-0.5" >01</span>
                         </div>
@@ -42,15 +49,15 @@ const About = () => {
                         </div>
                     </div>
                     <div className='h-[30vw] w-[50vw] flex justify-center items-center'>
-                        <img src={blog_img_1} alt="blog image 01" className='w-full h-full object-cover' />
+                        <img src={blog_img_1} alt="blog image 01" className='w-full h-full object-cover' data-aos="flip-right" />
                     </div>
                 </div>
 
                 <div className="mt-50 flex gap-50 h-auto items-center">
                     <div className='h-[30vw] w-[50vw] flex justify-center items-center'>
-                        <img src={blog_img_2} alt="blog image 01" className='w-full h-full object-cover' />
+                        <img src={blog_img_2} alt="blog image 01" className='w-full h-full object-cover' data-aos="flip-left" />
                     </div>
-                    <div className="font-body relative w-full -top-30">
+                    <div className="font-body relative w-full -top-30" data-aos="fade-up-left">
                         <div className='flex w-full'>
                             <span className="text-[220px] font-bold text-white/35 opacity-10 leading-0.5" >02</span>
                         </div>
@@ -75,7 +82,7 @@ const About = () => {
                 </div>
 
                 <div className="mt-50 flex gap-50 h-auto items-center">
-                    <div className="font-body relative w-full -top-30">
+                    <div className="font-body relative w-full -top-30" data-aos="fade-up-right" >
                         <div className='flex w-full'>
                             <span className="text-[220px] font-bold text-white/35 opacity-10 leading-0.5" >03</span>
                         </div>
@@ -97,7 +104,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className='h-[30vw] w-[50vw] flex justify-center items-center'>
-                        <img src={blog_img_1} alt="blog image 01" className='w-full h-full object-cover' />
+                        <img src={blog_img_3} alt="blog image 01" className='w-full h-full object-cover' data-aos="flip-right" />
                     </div>
                 </div>
                 

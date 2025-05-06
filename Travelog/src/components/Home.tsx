@@ -44,16 +44,18 @@ const Home: React.FC = () => {
         className="absolute top-0 left-0 w-full pointer-events-none"
         src={img3}
         alt="Layer 2"
+        data-aos="fade-up"
       />
       <img
         ref={img2Ref}
         className="absolute top-0 left-0 w-full pointer-events-none"
         src={img2}
         alt="Layer 3"
+        data-aos="fade-left"
       />
       <div className="w-full h-full blur-sm absolute plane-bg"></div>
 
-      <div className="absolute flex flex-col justify-center w-full h-full items-start px-30" ref={h2Ref}>
+      <div className="absolute flex flex-col justify-center w-full h-full items-start px-30" ref={h2Ref} data-aos="fade-right">
         <h2
           className="font-body text-[80px] font-[800] transition-transform duration-300"
         >

@@ -2,10 +2,12 @@ import search_icon from '../assets/search_icon.png'
 import account_icon from '../assets/account_icon.png'
 import logo from '../assets/logo.png'
 
+
 const NavBar = () => {
+
     return (
         <header>
-            <nav className='flex justify-between mt-10 items-center fixed z-50 w-full px-30'>
+            <nav className='flex justify-between py-10 items-center fixed z-50 w-full px-30' style={{backdropFilter: 'blur(10px)'}} data-aos="fade-down">
                 <div className='flex gap-4 font-logo items-center'>
                     <img src={logo} alt="logo" className='w-[40px] h-[40px]' />
                     <h1 className='font-logo font-bold text-[40px]'>Travelog</h1>
